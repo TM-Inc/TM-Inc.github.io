@@ -21,8 +21,14 @@ body{
   color: black;
 }
 
+#collapseNav{
+  color: black;
+  border-color: black;
+}
+
+
 #mainNav{
-  background-color: #f2f4f7;
+  background-color: #D9D9d9;
 }
 
 .logo
@@ -48,7 +54,7 @@ body{
 
 #header
 {
-  color: white;
+  background-color: #EFEFEF;
   /*background-image: url("../img/TM Inc Color.png");*/
 
   background-size: 100%;
@@ -62,7 +68,7 @@ body{
 
 #tm-header
 {
-
+  color: black;
 }
 
 #services-slide
@@ -78,9 +84,29 @@ body{
 section#services{
   padding: 20px 0;
   min-height: 80%;
+  background-color: #EFEFEF;
+  color: #EFEFEF;
 }
 
 section#about{
   padding: 100px 0;
   min-height: 80%;
+  background-color: #EFEFEF;
+}
+
+section#contact{
+  padding: 100px 0;
+  min-height: 80%;
+  background-color: #EFEFEF;
+}
+
+#helpUs{
+  font-size-adjust:
+  text-align: center;
+  margin-top: 2px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  /*position: relative;
+  left: 24%;*/
 }
