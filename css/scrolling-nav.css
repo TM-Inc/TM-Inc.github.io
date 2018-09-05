@@ -9,6 +9,85 @@ header {
   }
 }
 
+@media (max-width: 480px) {
+  h3{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1240px) {
+
+
+  .whyTMinc{
+    padding-bottom: 10px;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 450px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 29px;
+  }
+
+  #brandText{
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 29px;
+  }
+
+  #brandText{
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.leader {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+/* p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+  }*/
+
+
+h3{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+h2{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+p {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
 section {
   padding: 150px 0;
 }
@@ -19,6 +98,7 @@ body{
 
 #brandText{
   color: black;
+  font-family: 'Rock Salt', cursive;
 }
 
 #collapseNav{
@@ -35,21 +115,22 @@ body{
 {
   /*//increase if you have very small images*/
   position: relative;
-    zoom: 2;
-
-    display: block;
-    margin: auto;
-
-    height: auto;
-    max-height: 100%;
-
-    width: auto;
-    max-width: 100%;
+  zoom: 2;
+  display: block;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+  max-width: 280px;
 }
 
 #imgLogo{
   height: 40px;
   width: 40px;
+}
+
+#rockSalt{
+  font-family: 'Rock Salt';
 }
 
 #header
@@ -69,6 +150,11 @@ body{
 #tm-header
 {
   color: black;
+  font-family: 'Rock Salt';
+}
+
+#tmSlogan{
+  padding-top: 5px;
 }
 
 #services-slide
@@ -100,13 +186,21 @@ section#contact{
   background-color: #EFEFEF;
 }
 
+#services-slide{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 #helpUs{
-  font-size-adjust:
-  text-align: center;
+  font-family: 'Rock Salt';
+  font-size: 28px;
   margin-top: 2px;
   margin: auto;
   width: 50%;
   padding: 10px;
   /*position: relative;
   left: 24%;*/
+}
+
+#carousel-container{
+  max-height: 100%;
 }
